@@ -1,0 +1,30 @@
+{
+  "name": "testreact",
+  "version": "0.0.1",
+  "description": "Тестовый проект для изучения основ React.",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-rc.0",
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "start": "lite-server -c configs/my-lite-server-config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaskyLaeda/TestReact.git"
+  },
+  "keywords": [
+    "HRT"
+  ],
+  "author": "Alexander Shilyakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaskyLaeda/TestReact/issues"
+  },
+  "homepage": "https://github.com/HaskyLaeda/TestReact#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
