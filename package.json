@@ -8,7 +8,7 @@
     "react": "^16.8.6"
   },
   "scripts": {
-    "start": "lite-server -c configs/my-lite-server-config.js",
+    "start": "lite-server --c configs/bs-config.json",
     "test": "test"
   },
   "repository": {
