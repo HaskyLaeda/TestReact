@@ -4,8 +4,14 @@
   "description": "Тестовый проект для изучения основ React.",
   "main": "index.js",
   "dependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
     "@material-ui/core": "^4.0.0-rc.0",
-    "react": "^16.8.6"
+    "@material-ui/styles": "^4.2.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "lite-server --c configs/bs-config.json",
